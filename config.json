@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Données radar",
+      "elements": [
+        {
+          "id": "dimID",
+          "label": "Phase",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "id": "metricConformite",
+          "label": "Conformité (%)",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricPlanned",
+          "label": "Durée planifiée (j)",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricActual",
+          "label": "Durée réelle (j)",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "colorOptions",
+      "label": "Couleurs",
+      "elements": [
+        {
+          "id": "radarColor",
+          "label": "Couleur du radar",
+          "type": "SELECT_COLOR",
+          "defaultValue": "D85A30"
+        },
+        {
+          "id": "targetColor",
+          "label": "Couleur cible (100%)",
+          "type": "SELECT_COLOR",
+          "defaultValue": "639922"
+        }
+      ]
+    },
+    {
+      "id": "scaleOptions",
+      "label": "Échelle",
+      "elements": [
+        {
+          "id": "maxScale",
+          "label": "Valeur max de l'échelle",
+          "type": "TEXTINPUT",
+          "defaultValue": "260"
+        },
+        {
+          "id": "showTarget",
+          "label": "Afficher la ligne cible 100%",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ]
+}

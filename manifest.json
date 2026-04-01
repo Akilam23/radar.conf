@@ -1,0 +1,24 @@
+{
+  "name": "Radar Conformite Phases",
+  "organization": "MonOrg",
+  "description": "Radar de conformité des phases de projet",
+  "logoUrl": "",
+  "organizationUrl": "",
+  "packageUrl": "",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
+  "devMode": false,
+  "components": [
+    {
+      "id": "radar-conformite",
+      "name": "Radar Conformite",
+      "description": "Visualisation radar de conformité planifié vs réel",
+      "iconUrl": "",
+      "resource": {
+        "js": "gs://VOTRE_BUCKET/radar-conformite/viz.js",
+        "config": "gs://VOTRE_BUCKET/radar-conformite/config.json"
+      }
+    }
+  ]
+}
